@@ -1,0 +1,68 @@
+
+  .bodyprt {
+    display : flex;
+    align-items : center;
+    justify-content : center;  
+    
+
+  }
+  @media (max-width: 800px){
+    
+   
+    
+    }
+    .hll:hover{
+transform: scale(1.04);
+    }
+    .pdd{
+      padding-top: 5%;
+    }
+    
+  .cardd:hover .middle{
+  visibility: inherit;
+  opacity: 1;
+  }
+  .cardd:hover .text{
+    visibility: inherit;
+  
+  }
+ .cardd:hover .imageq{
+  opacity: 0.3;
+ }
+  .imageq {
+    opacity: 1;
+    display: block;
+  
+    border-radius: 10px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    visibility: hidden;
+  }
+  
+ 
+  .cont{
+    margin: 4em;
+  }
+  .text {
+    background-color: transparent;
+    color: white;
+    visibility: hidden;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+ .cardd{
+  border-radius: 10px;
+  box-sizing: border-box;
+ }
+ 
