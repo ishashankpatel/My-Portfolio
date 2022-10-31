@@ -15,15 +15,16 @@ function App() {
 
  return(
 <div className="mainnnn">
-  
-    <Routes>
+<Routes>
 <Route path="/" element={<Homes />} />
               <Route path="about" element={<About />} />
               <Route path="Projects" element={<Projectss />} />
               <Route path="Social" element={<Socials />} />
              
           </Routes>
+   
 </div>
+
 
  );
 }
