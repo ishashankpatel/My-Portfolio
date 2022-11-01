@@ -19,7 +19,7 @@ class MyCarousel extends Component {
     static get CONTAINER_STYLE() {
       return {
         position: "relative",
-    height: "30vh",
+    height: "40vh",
         width: "100%",
         display: "flex",
         flex: 1,

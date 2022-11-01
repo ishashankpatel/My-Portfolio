@@ -58,10 +58,10 @@ function Homes(){
      </div>
      <div className="containerr">
     
-      <a href="/about">
+      <Link to="about">
   <div className="btn btn-color">
   print("Click on me");
-   </div></a>
+   </div></Link>
   
     
      </div>

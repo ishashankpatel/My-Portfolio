@@ -3,6 +3,7 @@ import "./about.css";
 import Homes from "./home";
 import Projectss from "./Projects";
 import Socials from "./Social";
+import sp from "./assests/s.jpg"
 function About(){
   //Selecting the eye div
 

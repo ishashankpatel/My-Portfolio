@@ -171,7 +171,7 @@ h1{
   width: 120px;
   border-radius: 50%;
   border: 5px solid white;
-  background:no-repeat center/cover url(https://firebasestorage.googleapis.com/v0/b/myportfolio-f1279.appspot.com/o/s.jpg?alt=media&token=26be504b-f162-4ce6-bade-fc4c0c261417);
+  background:no-repeat center/cover url("./assests/s.jpg");
   position: absolute;
   top: -50%;
   left: 50%;
